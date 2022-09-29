@@ -14,7 +14,7 @@ def ave(*arg):
         arg = arg[0]
     return sigma(arg) / len(arg)
 
-def squared_avarage_standard_error(*arg):
+def squared_SEA(*arg):
     average = ave(arg)
     n = len(arg)
     RSS = 0
